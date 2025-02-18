@@ -8,4 +8,9 @@ Workshop-Inhalte
 - Wordle mit Zusatzaufgaben
 
 File starten
-- `ruby dateiname.rb`
+
+Ruby Basics
+- `ruby ruby_basics.rb`
+
+Wordle
+- `ruby wordle.rb`
