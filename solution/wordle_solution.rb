@@ -2,7 +2,7 @@
 words = %w[Apfel Creme Eimer Fisch Glanz Insel Junge Kiste Lampe Nacht Ozean Punkt Radio Sonne Tiger Vogel Wiese Zebra Zweig]
 
 # 'secret_word' ist das von dem Benutzer gesuchte Wort, es wird aus der obenstehenden liste zufällig entnommen
-secret_word = words.sample
+secret_word = words.sample.downcase!
 
 puts "Willkommen zu Wordle in Ruby! Errate das 5-Buchstaben-Wort."
 
@@ -25,7 +25,7 @@ end
 # Dies ist eine Schlaufe, welche dir immer den Buchstaben und die Position des buchstabens zurückgibt
 loop do
   print "Dein Tipp: "
-  guess = gets.chomp
+  guess = gets.chomp.downcase
 
   # Überprüfe, ob das wort nicht der länge 5 Buchstaben entspricht. (!= 5 überprüft, ob eine Zahl nicht 5 ist)
   if guess.length != 5
@@ -54,7 +54,6 @@ loop do
       # Wenn die beiden obigen Überprüfungen nicht wahr sind, färbe den buchstaben rot (.red)
     else
       feedback += char.red
-
     end
   end
 

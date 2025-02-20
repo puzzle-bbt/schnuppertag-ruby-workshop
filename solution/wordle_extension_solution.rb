@@ -42,13 +42,13 @@ loop do
     else
       puts "Der Highscore ist #{highscore}"
     end
-    secret_word = words.sample
+    secret_word = words.sample.downcase!
     puts "Neues Wort! Aktueller Score: #{score}"
 
     # Das ist eine schlaufe die immer weiter geht, wenn du sie nicht bewusst beendest
     attempts_left.times do
       print "Dein Tipp: "
-      guess = gets.chomp
+      guess = gets.chomp.downcase
 
       # Überprüfe, ob das wort nicht der länge 5 Buchstaben entspricht. (!= 5 überprüft, ob eine Zahl nicht 5 ist)
       if guess.length != 5
