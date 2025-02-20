@@ -17,13 +17,15 @@ puts name.length
 puts name.include?("e")
 
 # 7. Gib deinen Namen 5 mal aus
-5.times { puts name }
+5.times do
+  puts name
+end
 
 # 8. Summiere zwei Zahlen und gib das Resultat aus
 puts 7 + 5
 
 # 9. Multipliziere eine Zahl mit sich selber (quadriere sie) und gib das Ergebnis aus
-puts 6**2
+puts 6 ** 2
 
 # 10. Finde die quadratwurzel von '144' und gib sie aus
 puts Math.sqrt(144)
@@ -49,10 +51,14 @@ unless name == "Nevio"
 end
 
 # 14. Verwende eine for each, um nummern von 1 bis 5 auszugeben
-(1..5).each { |num| puts num }
+(1..5).each do |num|
+  puts num
+end
 
 # 15. Verwende eine Schleife, um jeden Buchstaben deines Namens auf einer neuen Zeile auszugeben
-name.each_char { |buchstabe| puts buchstabe }
+name.each_char do |buchstabe|
+  puts buchstabe
+end
 
 # 16. Frage den Benutzer nach seinem Alter und gib es aus
 puts "Bitte gib dein Alter ein: "
