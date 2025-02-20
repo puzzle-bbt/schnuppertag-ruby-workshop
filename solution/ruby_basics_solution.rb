@@ -34,7 +34,7 @@ puts Math.sqrt(144)
 puts rand(1..100)
 
 # 12. Erstelle eine Variabel mit einer Nummer
-#     Prüfe dann mithilfe einer if-else klausel, ob die Nummer gerade oder ungerade ist.
+#     Prüfe dann mithilfe einer if-else Bedingung, ob die Nummer gerade oder ungerade ist.
 #     Wenn die Nummer gerade ist, gib 'Die Nummer ist gerade' aus.
 #     Wenn die Nummer ungerade ist, gib 'Die Nummer ist ungerade' aus.
 number = 10
