@@ -1,12 +1,12 @@
 # Wörter die vorkommen können
 words = %w[Apfel Creme Eimer Fisch Glanz Insel Junge Kiste Lampe Nacht Ozean Punkt Radio Sonne Tiger Vogel Wiese Zebra Zweig]
 
-# Secret word ist das von dem User gesuchte Wort, es wird aus der obenstehenden liste random entnommen
+# 'secret_word' ist das von dem Benutzer gesuchte Wort, es wird aus der obenstehenden liste zufällig entnommen
 secret_word = words.sample
 
 puts "Willkommen zu Wordle in Ruby! Errate das 5-Buchstaben-Wort."
 
-# diese farben kannst du zum Färben der buchstaben verwenden z.b. "buchstabe.red"
+# Diese farben kannst du zum Färben der buchstaben verwenden z.b. "buchstabe.red"
 class String
   def red
     "\e[31m#{self}\e[0m"
@@ -36,7 +36,7 @@ loop do
     exit
   end
 
-  # Das ist ein Loop, der dir immer den Buchstaben und an welcher Stelle er steht, ausgibt
+  # Dies ist eine Schlaufe, welche dir immer den Buchstaben und die Position des buchstabens zurückgibt
   feedback = ""
   guess.chars.each_with_index do |buchstabe, position|
 
@@ -57,11 +57,11 @@ loop do
   puts "Feedback: #{feedback}"
 end
 
-# Zusatz aufgebe 1
-# Der User soll nur 5 versuche haben das wort auszugeben, ebenfalls soll der user sehen wie viele versüche er noch hat
+# Zusatzaufgabe 1
+# Der Benutzer soll nur 5 versuche haben das Wort richtig einzugeben, ebenfalls soll der Benutzer sehen, wie viele versuche er noch übrig hat
 
-# Zusatz aufgabe 2
-# Mache das auch nach dem Lösen des Wordle (richtig oder falsch), das Programm nicht endet, sondern ein anderes Secret word genommen wird und der User nochmal von vorne beginnt
+# Zusatzaufgabe 2
+# Nachdem der Benutzer keine Versuche mehr übrig hat, soll das Spiel noch einmal von vorne beginnen. Dafür sollte ein neues Wort ausgewählt werden
 
-# Zusatz aufgabe 3
-# Füge einen Highscore ein, der Dir angibt, wie viele Wordles Du nacheinander in den begrenzten Versuchen geschafft hasst
+# Zusatzaufgabe 3
+# Füge einen Highscore ein, der dir angibt, wie viele Wordles du nacheinander in den begrenzten Versuchen geschafft hasst.
