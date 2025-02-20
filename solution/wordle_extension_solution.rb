@@ -1,11 +1,11 @@
-# Zusatz aufgebe 1
-# Der User soll nur 5 versuche haben das wort auszugeben, ebenfalls soll der user sehen wie viele versüche er noch hat
+# Zusatzaufgabe 1
+# Der Benutzer soll nur 5 versuche haben das Wort richtig einzugeben, ebenfalls soll der Benutzer sehen, wie viele versuche er noch übrig hat
 
-# Zusatz aufgabe 2
-# Mache das auch nach dem Lösen des Wordle (richtig oder falsch), das Programm nicht endet, sondern ein anderes Secret word genommen wird und der User nochmal von vorne beginnt
+# Zusatzaufgabe 2
+# Nachdem der Benutzer keine Versuche mehr übrig hat, soll das Spiel noch einmal von vorne beginnen. Dafür sollte ein neues Wort ausgewählt werden
 
-# Zusatz aufgabe 3
-# Füge einen Highscore ein, der Dir angibt, wie viele Wordles Du nacheinander in den begrenzten Versuchen geschafft hasst
+# Zusatzaufgabe 3
+# Füge einen Highscore ein, der dir angibt, wie viele Wordles du nacheinander in den begrenzten Versuchen geschafft hasst.
 
 loop do
   # Wörter die vorkommen können

@@ -1,12 +1,12 @@
 # Wörter die vorkommen können
 words = %w[Apfel Creme Eimer Fisch Glanz Insel Junge Kiste Lampe Nacht Ozean Punkt Radio Sonne Tiger Vogel Wiese Zebra Zweig]
 
-# Secret word ist das von dem User gesuchte Wort, es wird aus der obenstehenden liste random entnommen
+# 'secret_word' ist das von dem Benutzer gesuchte Wort, es wird aus der obenstehenden liste zufällig entnommen
 secret_word = words.sample
 
 puts "Willkommen zu Wordle in Ruby! Errate das 5-Buchstaben-Wort."
 
-# diese farben kannst du zum Färben der buchstaben verwenden z.b. "buchstabe.red"
+# Diese farben kannst du zum Färben der buchstaben verwenden z.b. "buchstabe.red"
 class String
   def red
     "\e[31m#{self}\e[0m"
@@ -22,7 +22,7 @@ class String
 end
 
 
-# Das ist eine schlaufe die immer weiter geht, wenn du sie nicht bewusst beendest
+# Dies ist eine Schlaufe, welche dir immer den Buchstaben und die Position des buchstabens zurückgibt
 loop do
   print "Dein Tipp: "
   guess = gets.chomp
