@@ -27,7 +27,8 @@ loop do
   guess = gets.chomp.downcase
 
   # Überprüfe, ob das wort nicht der länge 5 Buchstaben entspricht. (!= 5 überprüft, ob eine Zahl nicht 5 ist)
-  if puts "Bitte gib ein Wort mit genau 5 Buchstaben ein."
+  if
+    puts "Bitte gib ein Wort mit genau 5 Buchstaben ein."
     redo
   end
 
