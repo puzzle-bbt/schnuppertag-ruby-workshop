@@ -42,10 +42,12 @@ loop do
   guess.chars.each_with_index do |buchstabe, position|
 
     # Überprüfe, ob der buchstabe and der richtigen position ist und färbe ihn grün (.green)
-    if feedback +=
+    if
+      feedback +=
 
       # Überprüfe, ob der buchstabe im wort enthalten (included) ist und färbe in braun (.brown)
-    elsif feedback +=
+    elsif
+      feedback +=
 
       # Wenn die beiden obigen Überprüfungen nicht wahr sind, färbe den buchstaben rot (.red)
     else
