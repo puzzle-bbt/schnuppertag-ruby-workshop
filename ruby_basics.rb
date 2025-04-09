@@ -51,3 +51,7 @@ number = 10
 # 16. Frage den Benutzer nach seinem Alter und gib es aus
 puts "Bitte gib dein Alter ein: "
 
+
+# 17. Gib den ersten buchstaben deines Names aus
+
+
