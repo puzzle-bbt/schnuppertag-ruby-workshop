@@ -26,14 +26,14 @@ loop do
   print "Dein Tipp: "
   guess = gets.chomp.downcase
 
-  # Überprüfe, ob das wort nicht der länge 5 Buchstaben entspricht. (!= 5 überprüft, ob eine Zahl nicht 5 ist)
-  if
+  # Überprüfe, ob das wort nicht der länge 5 Buchstaben entspricht. (!= 5 überprüft, ob eine Zahl nicht 5 ist.) Das false muss mit der Überprüfung ersetzt werden.
+  if false
     puts "Bitte gib ein Wort mit genau 5 Buchstaben ein."
     redo
   end
 
-  # Überprüfe, ob das wort dasselbe ist wie das Secret word
-  if
+  # Überprüfe, ob das wort dasselbe ist wie das Secret word. Das false muss mit der Überprüfung ersetzt werden.
+  if false
     puts "Glückwunsch! Du hast das Wort erraten: #{secret_word}!"
     exit
   end
@@ -42,17 +42,17 @@ loop do
   feedback = ""
   guess.chars.each_with_index do |buchstabe, position|
 
-    # Überprüfe, ob der buchstabe and der richtigen position ist und färbe ihn grün (.green)
+    # Überprüfe, ob der buchstabe and der richtigen position ist und färbe ihn grün (.green). Die zwei Anführungszeichen sollen ersetzt werden.
     if
-      feedback +=
+      feedback += ""
 
-      # Überprüfe, ob der buchstabe im wort enthalten (included) ist und färbe in braun (.brown)
+      # Überprüfe, ob der buchstabe im wort enthalten (included) ist und färbe in braun (.brown). Die zwei Anführungszeichen sollen ersetzt werden.
     elsif
-      feedback +=
+      feedback += ""
 
-      # Wenn die beiden obigen Überprüfungen nicht wahr sind, färbe den buchstaben rot (.red)
+      # Wenn die beiden obigen Überprüfungen nicht wahr sind, färbe den buchstaben rot. (.red). Die zwei Anführungszeichen sollen mit der Färbung der Buchstaben ersetzt werden.
     else
-      feedback +=
+      feedback += ""
 
     end
   end

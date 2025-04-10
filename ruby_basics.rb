@@ -32,10 +32,10 @@
 
 
 # 12. Erstelle eine Variabel mit einer Nummer
+#     Setze eine neue Variable die 'nummer' heisst.
 #     Prüfe dann mithilfe einer if-else Bedingung, ob die Nummer gerade oder ungerade ist.
 #     Wenn die Nummer gerade ist, gib 'Die Nummer ist gerade' aus.
 #     Wenn die Nummer ungerade ist, gib 'Die Nummer ist ungerade' aus.
-number = 10
 
 
 # 13. Verwende 'unless' um zu testen, ob dein Name 'Nevio' ist.
@@ -48,8 +48,7 @@ number = 10
 # 15. Verwende eine Schleife, um jeden Buchstaben deines Namens auf einer neuen Zeile auszugeben
 
 
-# 16. Frage den Benutzer nach seinem Alter und gib es aus
-puts "Bitte gib dein Alter ein: "
+# 16. Frage den Benutzer nach seinem Alter und gib es aus (Das Alter soll im Terminal eingegeben werden)
 
 
 # 17. Gib den ersten buchstaben deines Names aus
