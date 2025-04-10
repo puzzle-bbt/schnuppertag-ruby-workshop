@@ -27,4 +27,12 @@ Wenn alles noch auf dem laptop ist, muss man nur noch neu pullen.
 <br>
 ### Nach einem durchgang
 Das Umfeld muss hard resettet werden und eventuell neu pullen, wenn Änderungen vorgenommen wurden. <br>
-Sonst sollte noch ein neues Terminal geöffnet werden, damit sie die Command-History nicht beibeihalten und aus Versehen hard resetten.
+Sonst sollte noch ein neues Terminal geöffnet werden, damit sie die Command-History nicht beibeihalten und aus Versehen hard resetten. <br>
+
+git reset --hard <br>
+
+git pull <br>
+
+history -c <br>
+
+Then delete the solutions folder
