@@ -47,7 +47,7 @@ loop do
     if secret_word[index] == char
       feedback += char.green
 
-      # Überprüfe, ob der buchstabe im wort enthalten (included) ist und färbe in braun (.brown)
+      # Überprüfe, ob der buchstabe im wort enthalten (include) ist und färbe in braun (.brown)
     elsif secret_word.include?(char)
       feedback += char.brown
 

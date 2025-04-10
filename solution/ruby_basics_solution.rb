@@ -64,3 +64,30 @@ end
 puts "Bitte gib dein Alter ein: "
 age = gets.chomp
 puts "Du bist #{age} Jahre alt."
+
+# 17. Gib den ersten buchstaben deines Names aus
+puts name[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name.reverse
